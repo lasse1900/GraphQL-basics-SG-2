@@ -1,0 +1,16 @@
+
+{
+	songs {
+    id
+    title
+    lyrics {
+      content
+    }
+  }
+}
+
+{
+	songs {
+    title
+  }
+}
