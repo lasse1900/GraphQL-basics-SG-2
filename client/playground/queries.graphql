@@ -26,3 +26,15 @@ mutation AddSong($title: String){
   "title": "Mars mars"
 }
 
+
+mutation AddLyricToSong($songid: ID!, $content: String){
+  addLyricToSong(songId: $songid, content:$content){
+    id
+    title
+  }
+}
+
+{
+  "songid": "5ed8eec573b6db4405b302f9",
+  "content": "One sunny Morning"
+}
